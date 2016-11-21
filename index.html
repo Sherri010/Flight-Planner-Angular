@@ -18,19 +18,37 @@
      <div class="options">
        <!-- <a class="waves-effect waves-light btn-large   grey darken-2" href="dashboard.html">Login</a> -->
        <a class="waves-effect waves-light btn-large   grey darken-2" href="#modal1">Login</a>
-       <a class="waves-effect waves-light btn-large   grey darken-3" href="http://localhost:3000/users/sign_up">Sign up</a>
+       <a class="waves-effect waves-light btn-large   grey darken-3" href="#modal2">Sign up</a>
      </div>
      <div id="modal1" class="modal">
       <div class="modal-content">
         <h5>Login</h5>
-        <form id="login"  method="post">
-          <label>email:</label>
-          <input type="text" placeholder="Your Email" name="email" required>
-          <label>password:</label>
-          <input type="password" placeholder="Your Password" name="password" required>
-          <input type="submit">
+        <form id="login" method="post">
+          <label>Email:</label>
+          <input type="text" placeholder="Your Email" id="email" name="email" required>
+          <label>Password:</label>
+          <input type="password" placeholder="Your Password" id="password" name="password" required>
+          <input type="submit" name="login-submit">
        </div>
     </div>
+
+    <div id="modal2" class="modal">
+     <div class="modal-content">
+       <h5>Sign Up</h5>
+       <form id="signup"  method="post">
+         <label>Name:</label>
+         <input type:"text" placeholder="Your Name" id="new_name" >
+         <label>Email:</label>
+         <input type="text" placeholder="Your Email" id="new_email" >
+         <label>Password:</label>
+         <input type="password" placeholder="Your Password" id="new_password" >
+         <label>Confirm password:</label>
+         <input type="password" placeholder="Confirm Password" id="confirm_password" >
+         <input type="submit" name="signup-submit">
+      </div>
+   </div>
+
+
   </div>
 
 
