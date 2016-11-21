@@ -1,0 +1,24 @@
+body {font-family: 'Lato', sans-serif;}
+.wrapper{
+  background:url('../img/l2.jpg') no-repeat;
+  background-size:cover;
+  height:100vh;
+  margin:0px;
+  padding:0px;
+}
+h1 {margin:0px;}
+
+.title{
+  font-family:ideal sans-serif;
+  text-align: center;
+  padding:200px;
+  color:#fff;
+  font-size: 80px;
+}
+
+.options {
+ margin: 0 auto;
+ width:500px;
+ padding:0px;
+ text-align: center;
+}
